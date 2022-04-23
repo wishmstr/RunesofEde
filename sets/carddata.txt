@@ -1,6 +1,6 @@
 Name	Set	ImageFile	Cost	ReqRunes	CardType	Power	Flash	Ability	Ability2	Text	Text2
 Filip, Valiant Researcher	Set1	b01.png	1	U	Unit	1000				Play: Research 1	
-Filip, the Solution	Set1	b02.png	4	UU	Unit	2500				Play: Research 4.  Draw 1	Removed: Ready 2 Runes
+Filip, the Solution	Set1	b02.png	4	UU	Unit	2500	Y			Play: Research 4.  Draw 1	Removed: Ready 2 Runes
 Mal, the Devoted	Set1	b03.png	2	U	Unit	2000				Removed: Bounce target Unit cost 2 or less.	
 Raine, Tactician	Set1	b04.png	2	UU	Unit	1500		Critical		Constant: When you play and Event, this Unit gains 1000 power.	
 Ramus, Master of Arms	Set1	b05.png	6	UUU	Unit	5500	Y			Play: Exhaust 2.  If it's your turn, the chosen Units cannot ready during your opponent's next start-up	Constant: At the end of your turn ready 1 rune.
