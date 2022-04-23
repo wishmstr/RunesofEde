@@ -1,0 +1,78 @@
+Name	Set	ImageFile	Cost	ReqRunes	CardType	Power	Flash	Ability	Ability2	Text	Text2
+Filip, Valiant Researcher	Set1	b01.png	1	U	Unit	1000				Play: Research 1	
+Filip, the Solution	Set1	b02.png	4	UU	Unit	2500				Play: Research 4.  Draw 1	Removed: Ready 2 Runes
+Mal, the Devoted	Set1	b03.png	2	U	Unit	2000				Removed: Bounce target Unit cost 2 or less.	
+Raine, Tactician	Set1	b04.png	2	UU	Unit	1500		Critical		Constant: When you play and Event, this Unit gains 1000 power.	
+Ramus, Master of Arms	Set1	b05.png	6	UUU	Unit	5500	Y			Play: Exhaust 2.  If it's your turn, the chosen Units cannot ready during your opponent's next start-up	Constant: At the end of your turn ready 1 rune.
+Deception	Set1	b06.png	1	U	Event		Y			Counter: Unit cost 2 or less unless its owner pays 1.	
+Calculation	Set1	b07.png	1	U	Event		Y			Research 1.  Draw 1	
+Dig Through the Archives	Set1	b08.png	2	UU	Event		Y			Research 2.  Target player Mills 2.  You may drop 1 to Draw 1.	
+The Way of the Intellects	Set1	b09.png	3	UU	Event		Y			Counter: Event of Main.	
+Last Ditch Effort	Set1	b10.png	4	UU	Event		Y			Exhaust 2.	
+Dean, Architect of the Future	Set1	b11.png	1	U	Legendary Unit	1000		Mastery		When this card breaks a Rune, Rummage 5 for an Event.	
+Zak, Shifting the Balance	Set1	b12.png	3	UU	Legendary Unit	2500	Y	Mastery		Removed: Exhaust 1.	
+Dean, Stroke of Genius	Set1	b13.png	4	UU	Legendary Unit	3000		Critical		Play: Restore an Event cost 2 or less.  At the end of the turn ready 2 Runes.	
+Zak, Turning the Tide	Set1	b14.png	5	UUU	Legendary Unit	5000	Y	Mastery	Critical	Play: Exhaust 1 and place target exhausted Unit on top or bottom of its owner's archive.  Then, choose target Event in your discard pile and you may play it without paying its cost.	
+Ancient Rune of the Intellects	Set1	b15.png			Ancient Rune					Main(3): if you control 2 or less Intellects, bounce target main cost 2 or less.	
+Ancient Rune of the Intellects	Set1	b16.png			Ancient Rune					Main(3): Drop an Event card to draw 2.	
+Ancient Rune of the Intellects	Set1	b17.png			Ancient Rune					Main(2): Restore target event cost 1.	
+Intellectual Rune	Set1	b18.png			Rune						
+Abrupt End	Set1	p01.png	1	P	Event		Y			Target Unit gets -1000.	
+Wisp, Valiant Mystic	Set1	p02.png	1	P	Unit	1000		Reaper			
+Zapp, Beyond the Grave	Set1	p03.png	3	PP	Unit	3000		Reaper	Critical	Main: Destroy a 1 cost Unit that you control.  If you do, all players drop 1.	
+Mystic Looting	Set1	p04.png	2	PP	Event					Target player reveals their hand.  Choose a card from their hand cost 3 or less, that player drops it.	
+Dreg, Aether Specialist	Set1	p05.png	4	PP	Unit	2500				Play: Target Unit cannot attack next turn.	Removed: Revive a 1 cost Unit.
+Victor, the Infiltrator	Set1	p06.png	4	PPP	Unit	3000				Play: Target player reveals their hand.  Choose 1 card and target player drops it and draws 1.	
+From the Beyond	Set1	p07.png	1	P	Event					Revive a 1 cost Unit.	
+Unnatural Summoning	Set1	p08.png	4	PPP	Event					Revive any number of Mystic Units that add up to a total cost of 3.	
+Vera, Mystic Warrior	Set1	p09.png	2	P	Unit	1500		Critical		Constant: When a Unit loses power from one of your effects, this card gains 1000.	
+Van, One with the Aether	Set1	p10.png	2	P	Legendary Unit	2000				Once Per Turn: When a Unit loses power from one of your effects, target Unit gets -1000	
+Veida, Harnessing Darkness	Set1	p11.png	5	PPP	Legendary Unit	4000		Reaper		Play: All other Units get -1000 until end of turn.  Then when another Unit is destroyed this turn, all other Units get -1000 until end of turn.	
+Shad, Mystic Defender	Set1	p12.png	1	P	Unit	1000				Play: Search your archive for a copy of this card and add it to your hand.	
+Veida, the Unnatural	Set1	p13.png	3	PP	Legendary Unit	2000		Reaper		Play: Target Unit gets -1000.  Then, destroy target Unit with 3000 power or less.	
+Van, Technique Mastered	Set1	p14.png	6	PPP	Legendary Unit	4500		Reaper		Play: Destroy target Unit.	Combat: Revive target Unit.  It may attack this turn.  At the end of the turn, destroy target Unit your control.
+Mystic Rune	Set1	p15.png			Rune						
+Ancient Mystic Rune	Set1	p16.png			Ancient Rune					Main(3): You may mill 3.  Then, Restore target Unit cost 2 or less.	
+Ancient Mystic Rune	Set1	p17.png			Ancient Rune					Main(2): Target Unit gets -1000 for each 1 cost Mystic in your discard pile	
+Ancient Mystic Rune	Set1	p18.png			Ancient Rune					Main(2): All players drop 1.	
+Mara, Savage Savior	Set1	r01.png	5	RRR	Legendary Unit	4500		Rage		Constant: During your turn if you have 3 or less cards in hand, all Savages you control gain 1000 power.	Attack: You may drop 1 to restore targetEvent and play it without paying its cost.
+Ren, Harbringer of Rage	Set1	r02.png	6	RRRR	Legendary Unit	5500				Constant: Tokens you control gain 1000	Combat: Create 2 Savage Warrior Tokens with 1000 power and Rage.
+Tin, Ready for Battle	Set1	r03.png	1	R	Unit	1000		Rage			
+Sen, the Rallier	Set1	r04.png	3	RR	Unit	2500				Play: Create a Savage Warrior Token with 1000 power.	Main(2): Destroy a Savage you control to deal 2000 to target main.
+Max, Death Dealer	Set1	r05.png	3	RR	Unit	3000		Rage: if target opponent controls 3 or more runes.		Constant: When this card breaks a rune, deal 3000 to target Unit.	
+Kal, Savage Mentor	Set1	r06.png	4	RR	Unit					Play: Rummage 5 for a Savage cost 2 or less and play it.  The card played gains 1000 power until end of turn and Rage.	
+Savage Slice	Set1	r07.png	2	R	Event					Deal 2000 to target Unit	
+Dani, Boastful	Set1	r08.png	1	R	Unit	2000				Constant: If you control 3 or less Runes, this card comes into play exhausted.	
+Sid, Savage Kamikaze	Set1	r09.png	2	RR	Unit	2000				Removed: Deal 2000 to target Unit.	
+Dak, Rage Incarnate	Set1	r10.png	5	RR	Unit	5000				Play: Target 2 Units you control.  They gain Critical until the end of the turn.	
+Savage Strike	Set1	r11.png	2	R	Event		Y			Target Unit gains 2000 power until end of turn.	
+Savage Call	Set1	r12.png	1	R	Event					Draw 1 and drop 1 to create a Savage Warrior token with 1000 power.	
+Mara, the Untames	Set1	r13.png	2	RR	Legendary Unit	1500		Rage	Critical	Attack: Target Unit gains 1000 power until end of turn.	
+Ren, Savage General	Set1	r14.png	4	RR	Legendary Unit	4000				Constant: Tokens you control gain 1000 power.	Removed: Draw 1 and drop 1 to create a Savage Warrior Token with 1000 power.
+Savage Rune	Set1	r15.png			Rune						
+Ancient Savage Rune	Set1	r16.png			Ancient Rune					Main(3): Restore a Savage Unit cost 2 or less.	
+Ancient Savage Rune	Set1	r17.png			Ancient Rune					Main(3): If you control less Units than target opponent, deal 2000 to target Unit.	
+Ancient Savage Rune	Set1	r18.png			Ancient Rune					Main(2): Destroy a Unit you control to draw a card and create a Savage Warrior Token with 1000 power.	
+Savage Warrior	Set1	r19.png			Unit-Token	1000					
+Medo, the Giver	Set1	y01.png	2	Y	Unit	1000				Constant: Treat this card as a Marvel Rune and while this card is readies it cannot be targeted.	
+Barrett, Marvel Icon	Set1	y02.png	2	Y	Unit	1500		Might		Play: Fight target Unit cost 2 or less.	
+Kelchin, Marvel Ancient	Set1	y03.png	3	YYY	Unit	2500				Play: Target Unit gains 1000 power and Might until end of turn.	
+Mak, Marvel General	Set1	y04.png	6	YYY	Unit	5500		Might		Play: Fight target Unit.  If that Unit was destroyed, fight target Unit.	
+Jacob, Leading the Fight	Set1	y05.png	1	Y	Unit	1000				Constant: During your turn, when a Unit you control would gain power, increase that amount by 1000 until end of turn.	
+Ria, Potential Unlocked	Set1	y06.png	2	YY	Unit	1000		Critical		Constant: When you play a Unit with higher power, this card gains 1000 power.	
+Fahs, Unrelenting	Set1	y07.png	4	YY	Unit	4000		Might		Constant: This card does not exhaust when attacking.	
+Joco, Marvel Ancient	Set1	y08.png	5	YYYYY	Unit	4500				Removed: Revive target Unit cost 3 or less and it gains 1000 power.	
+Call the Marvels	Set1	y09.png	2	Y	Event		Y			Rummage 5 for a Marvel Unit cost 2 or less and play it.	
+Clash of the Titans	Set1	y10.png	2	Y	Event					Target Unit gains 1000 power and fights target Unit.	
+Jed, Marvel Caretaker	Set1	y11.png	4	YYY	Legendary Unit	4000				Play: Target Unit gains 1000 power until end of turn and fights target Unit.	Removed: play a Rune exhausted.
+Jed, Marvel Awakening	Set1	y12.png	8	YYYYY	Legendary Unit	7500		Devastate	Might	Play: Destroy all other Units	Constant: The first time each turn this Unit is targeted by an opponent's effect, negate that effect.
+Bale, Steadfast	Set1	y13.png	3	YY	Legendary Unit	3000		Might	Critical	Attack/Defend: Draw 1.	
+Bale, Transcendent Marvel	Set1	y14.png	5	YYY	Legendary Unit	5000		Might		Once Per Turn: When a Unit you control breaks a Rune, draw 1 and destroy target Unit cost 3 or less.	
+Marvel Rune	Set1	y15.png			Rune						
+Ancient Marvel Rune	Set1	y16.png			Ancient Rune					Main(4): Target Marvel cost 3 or less you control gains 3000.	
+Ancient Marvel Rune	Set1	y17.png			Ancient Rune					Main(2): Marvels cost 3 or less cannot be targeted until the start of your next turn.	
+Ancient Marvel Rune	Set1	y18.png			Ancient Rune					Main(3): Restore a Marvel Event cost 2 or less.	
+Rune Shift	Set1	y19.png	2		Event					Return a Rune you control to your Stockpile.  Search your Stockpile for any Rune and play it.  Then, shuffle your Stockpile.	
+Rune Desecrator	Set1	y20.png	7		Unit	3000				Play: Both players destroy target Unit and Rune they control.	
+Rune Robber	Set1	y21.png	3		Unit	2000				Play: Exile 2 cards from any discard pile.	Destroyed: Draw 1, drop 1.
+Archive Editor	Set1	y22.png	3		Unit	2000				Play: Recover 3, then shuffle your Archive.  Both players draw 1.	

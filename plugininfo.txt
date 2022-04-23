@@ -1,0 +1,159 @@
+<plugin>
+
+//---------->Deck Zones<---------//
+// 1 - Deck/Archive
+// 2 - Stockpile 
+
+<deckzone>
+	<label>Archive</label>
+	<shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+	<label>Stockpile</label>
+	<shuffle>yes</shuffle>
+</deckzone>
+
+//---------->Game Zones<---------//
+// 1 - Hand
+// 2 - Deck
+// 3 - Discard
+// 4 - Stockpile
+// 5 - Damage Area
+
+<gamezone>
+	<label>Hand</label>
+	<visibletoowner>yes</visibletoowner>
+</gamezone>
+
+<gamezone>
+	<label>Archive</label>
+</gamezone>
+
+<gamezone>
+	<label>Discard</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>yes</visibletoothers>
+</gamezone>
+
+<gamezone>
+	<label>Stockpile</label>
+</gamezone>
+
+<gamezone>
+	<label>Damage Area</label>
+	<visibletoowner>yes</visibletoowner>
+     	<visibletoothers>yes</visibletoothers>
+</gamezone>
+
+
+//---------->Phases<---------//
+<phase><label>Start Up</label></phase>
+<phase><label>Main 1</label></phase>
+<phase><label>Combat</label></phase>
+<phase><label>Main 2</label></phase>
+<phase><label>End</label></phase>
+
+
+//---------->GENERAL FUNCTIONS(11)<----------//
+// 1-Reveal top card to table
+// 2-Draw a card
+// 3-Flip a coin
+
+<generalfunction>
+<label>Play Resource</label>
+	<kind>TRANSFERCARD</kind>
+	<sourcegamezone>Stockpile</sourcegamezone>
+	<sourceposition>top</sourceposition>
+	<destinationowner>table</destinationowner>
+	<destinationposition>faceup</destinationposition>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Draw</label>
+	<kind>DRAWCARD</kind>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Flip Coin</label>
+	<kind>FLIPCOIN</kind>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Break Rune</label>
+	<kind>TRANSFERCARD</kind>
+	<sourcegamezone>Stockpile</sourcegamezone>
+	<destinationgamezone>Damage Area</destinationgamezone>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Ready All</label>
+	<kind>ALLYOURCARDSMAKERIGHT0DEGREES</kind>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+//---------->CARD FUNCTIONS(12)<----------//
+// 1-Rotate (180 degrees)
+// 2-Add Green Counter
+// 3-Remove Green Counter
+// 4-Add Red Counter
+// 5-Remove Red Counter
+// 6-Ready (0 degrees -- original orientation)
+
+<cardfunction>
+	<label>Tap</label>
+	<kind>MAKERIGHT90DEGREES</kind>
+</cardfunction>
+
+<cardfunction>
+	<label>Green+1</label>
+	<kind>ADDCOUNTER</kind>
+	<color>green</color>
+	<includeasbutton>yes</includeasbutton>
+	<PositionX>.75</PositionX>
+	<PositionY>.04</PositionY>
+</cardfunction>
+
+<cardfunction>
+	<label>Green-1</label>
+	<kind>REMOVECOUNTERGREEN</kind>
+	<color>green</color>
+	<includeasbutton>yes</includeasbutton>
+</cardfunction>
+
+<cardfunction>
+	<label>Red+1</label>
+	<kind>ADDCOUNTER</kind>
+	<color>red</color>
+	<includeasbutton>yes</includeasbutton>
+	<textoverimagecolor>FF0000</textoverimagecolor>
+	<PositionX>.25</PositionX>
+	<PositionY>.04</PositionY>
+</cardfunction>
+
+<cardfunction>
+	<label>Red-1</label>
+	<kind>REMOVECOUNTER</kind>
+	<color>red</color>
+	<includeasbutton>yes</includeasbutton>
+</cardfunction>
+
+<cardfunction>
+	<label>Ready</label>
+	<kind>MAKERIGHT0DEGREES</kind>
+</cardfunction>
+
+//---------->GENERAL DEFINITIONS(4)<----------//
+// 3-Does not allow for face-down cards to be visible to anyone
+
+<definition>
+	<kind>ISYOURFACEDOWNVISIBLE</kind>
+	<value>no</value>
+</definition>
+
+
+</plugin>
