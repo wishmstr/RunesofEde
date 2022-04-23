@@ -1,8 +1,8 @@
 RunesofEde	04-23-22
 plugins/RunesofEde/plugininfo.txt	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/plugininfo.txt	284244
-plugins/RunesofEde/pluginpreferences.txt	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/pluginpreferences.txt	293969
+plugins/RunesofEde/pluginpreferences.txt	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/pluginpreferences.txt	289327
 plugins/RunesofEde/ROE-Game-Rules.docx	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/ROE-Game-Rules.docx	-1646516
-plugins/RunesofEde/sets/carddata.txt	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/sets/carddata.txt	773072
+plugins/RunesofEde/sets/carddata.txt	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/sets/carddata.txt	774056
 plugins/RunesofEde/CardImageURLs1.txt	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/CardImageURLs1.txt	716967
 plugins/RunesofEde/sets/setimages/general/cardback.png	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/sets/setimages/general/cardback.png	4258
 plugins/RunesofEde/sets/setimages/general/spawned.png	https://raw.githubusercontent.com/wishmstr/RunesofEde/main/sets/setimages/general/spawned.png	4258
